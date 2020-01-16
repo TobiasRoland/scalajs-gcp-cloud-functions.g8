@@ -1,6 +1,6 @@
 # $name$
 
-$description$
+A starter project to get up and running with Google Cloud Functions based on [this template][template]
 
 ## How to build
 

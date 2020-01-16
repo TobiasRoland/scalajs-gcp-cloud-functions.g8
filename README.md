@@ -9,7 +9,7 @@ Open a console and run the following command to apply this template:
 sbt new TobiasRoland/scalajs-gcp-cloud-functions.g8
 ```
 
-This template will prompt for the **name** of the project, **description**, **package** and **cloudFunctionName**. If you are happy with the defaults or unsure what to do - press `ENTER` to confirm default options.
+This template will prompt for the **name** of the project, **package** and **cloudFunctionName**. If you are happy with the defaults or unsure what to do - press `ENTER` to confirm default options.
 
 Once inside the newly created project folder, compile the function to javascript and deploy the resulting code to Google Cloud Functions.
 
