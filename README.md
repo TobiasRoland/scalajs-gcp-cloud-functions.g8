@@ -9,11 +9,17 @@ Open a console and run the following command to apply this template:
 sbt new TobiasRoland/scalajs-gcp-cloud-functions.g8
 ```
 
-This template will prompt for the **name** of the project, **package** and **cloudFunctionName**. If you are happy with the defaults or unsure what to do - press `ENTER` to confirm default options.
+This template will prompt for the **name** of the project, **package** and **cloudFunctionName**. If you are happy with the defaults or unsure what to do - press `ENTER` to confirm default options:
+
+```
+name [scalaJS Google Cloud Function]:
+package [com.example]:
+cloudFunctionName [HelloWorld]:
+```
 
 This will generate the following sbt project:
 
-```
+```text
 ├── README.md
 ├── build.sbt
 ├── project
