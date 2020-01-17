@@ -25,4 +25,4 @@ See [Google Cloud Platform - Deployig Functinos][gcp] for deploying your functio
 _This project was initially generated from the [Scala.js GCP Cloud Function][template] giter8 template_
 
 [gcp]: https://cloud.google.com/functions/docs/deploying
-[template]: https://github.com/TobiasRoland/scalajs-g8
+[template]: https://github.com/TobiasRoland/scalajs-gcp-cloud-functions.g8
