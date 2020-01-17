@@ -11,13 +11,35 @@ sbt new TobiasRoland/scalajs-gcp-cloud-functions.g8
 
 This template will prompt for the **name** of the project, **package** and **cloudFunctionName**. If you are happy with the defaults or unsure what to do - press `ENTER` to confirm default options.
 
+This will generate the following sbt project:
+
+```
+├── README.md
+├── build.sbt
+├── project
+│   ├── build.properties
+│   └── plugins.sbt
+└── src
+    ├── main
+    │   └── scala
+    │       └── com
+    │           └── example
+    │               └── gcp
+    │                   └── CloudFunctions.scala
+    └── test
+        └── scala
+            └── com
+                └── example
+```
+
 Once inside the newly created project folder, compile the function to javascript and deploy the resulting code to Google Cloud Functions.
 
 ```sbt
 sbt fullOptJS
 ```
 
-See README.md of the newly created project for detailed steps.
+See README.md of the newly created project for detailed steps. I also [wrote a blogpost][blog] about the
+makings of the "Hello World" example function.
 
 
 ## Template license
@@ -31,3 +53,5 @@ This template is distributed without any warranty. See <http://creativecommons.o
 [g8]: http://www.foundweekends.org/giter8/
 [sbt]: http://www.scala-sbt.org/
 [sbt_download]: http://www.scala-sbt.org/download.html
+[blog]: https://www.mostly.codes/blog/creating-scalajs-gcp-cloud-functions
+
