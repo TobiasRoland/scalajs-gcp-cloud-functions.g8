@@ -1,5 +1,5 @@
 import org.scalajs.core.tools.linker.backend.ModuleKind.CommonJSModule
-scalaJSModuleKind := ModuleKind.CommonJSModule 
+scalaJSModuleKind := CommonJSModule 
 scalaJSUseMainModuleInitializer := false
 enablePlugins(ScalaJSPlugin)
 
